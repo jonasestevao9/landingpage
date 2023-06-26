@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/syle.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+
+    <aside class="menu white-bg">
+    <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">LOGO</a>
+        </h1>
+
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#grid-one">Coluna</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#grid-two">Estudos</a></li>
+                <li><a href="#pricing">Tabela</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>    
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+       <div class="main-content intro-content"> 
+        <div class="intro-text-content">
+        <h2> Utilização de HTML, CSS e JAVASCRIPT</h2>
+        <p>Os 3 pilares de um desenvolvidor Front-End, meu foco maior é aprender o básico dessas linguagens e seguir aprendendo outras, colocando em prática com frêquencia para absorver melhor os contéudos.</p>
+        </div>
+
+
+        <div class="intro-img">
+            <img src="assets/img/javascript.svg.svg" alt="Logo de HTML, CSS e JS.">
+        </div>
+       </div> 
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>As melhores áreas</h2>
+            <p><strong>Desenvolvimento Web</strong> - Essa é a parte que cuida de todos os processos para manter um site ao ar, desde o planejamento do projeto até as manutenções periódicas. As linguagens C++, JavaScript e HMTL costumam ser as mais requeridas para esse tipo de trabalho.</p>
+            <p><strong>Desenvolvedor Mobile</strong> - Cada vez mais as pessoas andam conectadas com seus smartphones e os utilizam para as mais variadas tarefas. Por esse motivo, investir desenvolvimento mobile, isto é, sistemas operacionais de dispositivos móveis em aplicativos, faz toda a diferença.
+            </p>
+            <p><strong>Desenvolvimento Front-End</strong> - Dentro do desenvolvimento web, existem divisões e o front-end se relaciona com a experiência do usuário (UX). Dessa forma, é a parte mais estética de um site ou de um aplicativo. 
+                Para trabalhar com a interface dos sistemas e promover a melhor usabilidade possível, é importante conhecer bem as linguagens Java, CSS e JavaScript.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+
+     <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Coluna</h2>
+        <p class="grid-description"> </p>
+     <div class="grid">
+
+     <article>
+          <h3>Teste 1</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aperiam facilis consectetur deleniti enim sed sit placeat nisi. Harum, consequuntur necessitatibus iure eligendi quia corrupti iste repellat exercitationem a laboriosam.</p>   
+        </article>
+        
+     <article>
+          <h3>Teste 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id eligendi tenetur nulla. Itaque suscipit nihil animi numquam blanditiis obcaecati, maiores facere aliquam aperiam pariatur quo dolore, accusamus tenetur id amet?</p>
+        </article>
+
+     <article>
+          <h3>Teste 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id eligendi tenetur nulla. Itaque suscipit nihil animi numquam blanditiis obcaecati, maiores facere aliquam aperiam pariatur quo dolore, accusamus tenetur id amet?</p>
+        </article>
+     </div>    
+     </div>
+
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+
+    <div class="main-content grid-one-content">
+           <h2 class="grid-main-heading">Galeria</h2>
+           <p class="grid-description"> Imagens aleatórias pelo Unsplash.</p>
+      <div class="grid">
+   
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=1" alt="random image from unsplash"/> </div>
+
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=2" alt="random image from unsplash"/> </div>
+
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=3" alt="random image from unsplash"/> </div>
+
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=4" alt="random image from unsplash"/> </div>
+
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=5" alt="random image from unsplash"/> </div>
+
+            <div class="gallery-img"> <img src="https://source.unsplash.com/featured/360x360?r=6" alt="random image from unsplash"/> </div>
+       </div>    
+    </div>
+
+    <section id="grid-two" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+           <h2 class="grid-main-heading">Os melhores conteúdos</h2>
+           <p class="grid-description"> Como e onde começa a estudar.</p>
+        <div class="grid">
+   
+        <article>
+             <h3>Youtube</h3>
+           <p> Com diversos contéudos grátis o Youtube é uma das principais formas mais eficazes de aprender, porém com o excesso de contéudo podemos ficar perdidos então é bom olhar os contéudos, dos canais: Curso em Video, Dev em Dobro, Filipe Deschamp e outros.</p>   
+           </article>
+           
+        <article>
+             <h3>Cursos</h3>
+           <p>Em um curso a pessoa consegue um rumo certo na programação aprendendo ''adequadamente'' e claro sendo um curso, fiz isso e comprei um curso de js na udemy e não me arrependo. Pesquisando adequadamente e sem querer comprar um "superestimado" é ótimo.</p>
+           </article>
+   
+        <article>
+             <h3>Prática</h3>
+           <p>Não adianta NADA assistir os contéudos e não praticar, isso serve para qualquer área da tecnologia e principalmente a de programação, as aulas auxiliam mas o que deixar o contéudo no cerébro é a prática. Muito melhor um rotina de estudos do que só uma motivação temporária </p>
+           </article>
+        </div>    
+        </div>
+   
+       </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabela</h2>
+            <p>Uma tabela só como uma demonstração, sem itens, objetos, somas, apenas colocada nessa landing page para mostrar a minha evolução estudando comandos do HTML e CSS.</p>
+
+        <div class="responsive-table"> 
+            <table>
+                <caption>Tabela de preços</caption>
+
+            <thead>
+                <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+                <th>Titulo 4</th>
+                <th>Titulo 5</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Objeto 1</td>
+                    <td>Objeto 2</td>
+                    <td>Objeto 3</td>
+                    <td>Objeto 4</td>
+                    <td>Objeto 5</td>
+                </tr>
+                <tr>
+                    <td>Objeto 1</td>
+                    <td>Objeto 2</td>
+                    <td>Objeto 3</td>
+                    <td>Objeto 4</td>
+                    <td>Objeto 5</td>
+                </tr>
+                <tr>
+                    <td>Objeto 1</td>
+                    <td>Objeto 2</td>
+                    <td>Objeto 3</td>
+                    <td>Objeto 4</td>
+                    <td>Objeto 5</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Testando</td>
+                </tr>
+            </tfoot>
+            </table>
+        </div>    
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content-two"> 
+         <div class="intro-text-content">
+         <h2> Nos ajude com sua opnião</h2>
+         <p>Obrigador por ter visto esse site até o final, fico feliz em saber que você se interessou pelo conteúdo, como dito ainda sou um iniciante estudando de front-end, caso goste e queira dar sua opnião sobre o projeto ficarei grato.</p>
+         </div>
+ 
+         <div class="two-img">
+             <img src="assets/img/message.svg.svg" alt="Pessoas segurando um balão de conversa" width="100%">
+         </div>
+         
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contate-nos</legend>
+
+                <div class="form-group">
+                    <label for="first name"> Nome</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="last name"> Sobrenome</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message"> Mensagem</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Enviar mensagem</button>
+                </div>
+            </fieldset>
+        </div>    
+
+    </div>  
+     </section>
+ 
+    <footer id="footer" class="footer white-bg">
+        <p><a href="https://www.instagram.com/_jonasestevao/">Feito com <span class="heart">♥</span> por Jonas Estêvão</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
